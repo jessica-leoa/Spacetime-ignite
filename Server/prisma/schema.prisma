@@ -1,0 +1,15 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id   String @id @default(uuid())
+  nome String
+}
+
+// npx prisma migrate dev (comando para criar o banco de fato, detectando todas as auteracoes feita nesse arquivo)

@@ -1,0 +1,37 @@
+# Setup Back-End
+
+- npm i typescript -D
+- npm i @types/node -D
+- npx tsc --init
+- npm i tsx -D
+- npm i fastify
+- npm i @rocketseat/eslint-config -D
+- npm run lint
+- npm i prisma -D
+- npx prisma init --datasource-provider SQLite (criar o banco)
+- npm prisma studio (visualizar o banco no navegador GUI)
+- npm i @prisma/client (acessar o banco através do meu servidor(api))
+- npx prisma migrate dev
+- npm i prettier-plugin-tailwindcss -D (deixar o código mais bonito)
+- npx create-expo-app my-app
+- npm run start
+- npm i nativewind
+- npm i tailwindcss -D
+
+
+# Setup Front-End
+
+
+# Tecnologias utilizadas
+- React + Next.js
+- Node.js
+- Prisma + SQLite
+- React Native
+- Expor
+- Typescript
+- Fastify
+- Git/GitHub
+- 
+
+# Rodar meu back
+- npm run dev
